@@ -21,7 +21,9 @@ if [[ $(which upnpc) == "upnpc not found" ]] ; then
 fi
 
 myip=$(ifconfig | sed -En 's/127.0.0.1//;s/.*inet (addr:)?(([0-9]*\.){3}[0-9]*).*/\2/p')
-echo "[*] Start add rules to IP: $myip"
+echo "[*] Start adding rules to IP: $myip"
+# edit this part if needed
+# upnpc -a $myip port external-port protocal
 upnpc -a $myip 27015 27015 TCP
 upnpc -a $myip 27015 27015 UDP
 echo "[*] Done"
