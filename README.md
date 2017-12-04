@@ -6,7 +6,7 @@ Simple Run:
 
 `./cs.sh`
 
-If there is an permisson error run ( `sudo` if needed ):
+If there is any permisson error run ( `sudo` if needed ):
 
 `chmod +x cs.sh`
 
