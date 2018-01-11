@@ -2,7 +2,7 @@
 Port-forwarding script for Counter-Strike:CS1.6, CZ on MacOS
 > Using Homebrew with [MiniUPnP](http://miniupnp.tuxfamily.org)
 
-Simple Run:
+Simply Run:
 
 `./cs.sh`
 
